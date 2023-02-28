@@ -22,9 +22,6 @@ document.getElementById('reset').addEventListener('click' , ()=>{
 
 document.getElementById('cast').addEventListener('click' , ()=>{
     let cast = document.querySelector('.castDisplay')
-    let arr = [];
-    arr.push(...arr , timer.innerHTML)
-    console.log(arr);
     let listItem = document.createElement("p");
     listItem.innerText = `CAST : ${timer.innerHTML}`;
     cast.appendChild(listItem)
