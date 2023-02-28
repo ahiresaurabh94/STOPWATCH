@@ -1,0 +1,77 @@
+.main{
+    /* border: 1px solid black; */
+
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color:yellowgreen;
+}
+
+.timerDisplay {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+
+.btns {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button{
+    padding: 5px;
+    width: 60px;
+}
+
+#pause{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;
+}
+
+#start{
+    background-color: white;
+    border: 1px solid rgb(31, 154, 31);
+    color: rgb(31, 154, 31);
+    font-weight: bold;
+}
+
+#reset{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    font-weight: bold;
+}
+
+#cast{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.castDisplay{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-weight: bold;
+    color: gray;
+}
+
+.castDisplay p {
+    margin: auto;
+    margin-bottom: 10px;
+}
